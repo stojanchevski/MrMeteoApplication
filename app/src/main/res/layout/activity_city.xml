@@ -35,15 +35,16 @@
         android:textColor="@color/black"
         android:imeOptions="actionGo"
         android:gravity="center_vertical|center_horizontal"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Check"
         android:layout_below="@+id/queryET"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:background="#3498db"
-        android:textColor="#fff"
-        android:layout_marginTop="20dp"/>
+        android:text="Check"
+        android:textColor="#fff" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
