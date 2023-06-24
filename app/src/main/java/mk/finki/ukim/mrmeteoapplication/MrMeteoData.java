@@ -66,7 +66,7 @@ public class MrMeteoData extends AppCompatActivity {
             return "tstorm3";
         }
 
-        return "dunno";
+        return "question";
     }
 
     public String getmTemperature() {
