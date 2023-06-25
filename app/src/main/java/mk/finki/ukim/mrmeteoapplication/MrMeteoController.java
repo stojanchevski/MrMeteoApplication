@@ -49,7 +49,6 @@ public class MrMeteoController extends AppCompatActivity {
     String LOCATION_PROVIDER = LocationManager.GPS_PROVIDER;
 
 
-    // Member Variables:
     TextView mCityLabel, conditionLabel;
     ImageView mWeatherImage;
     TextView mTemperatureLabel;
@@ -67,7 +66,6 @@ public class MrMeteoController extends AppCompatActivity {
         setContentView(R.layout.activity_mr_meteo_controller);
         readMoreButton = (Button) findViewById(R.id.readMoreButton);
 
-        // Linking the elements in the layout to Java code
         mCityLabel = (TextView) findViewById(R.id.locationTV);
 
         mWeatherImage = (ImageView) findViewById(R.id.weatherSymbolIV);

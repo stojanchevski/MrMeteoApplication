@@ -9,11 +9,12 @@ import org.json.JSONObject;
 
 public class MrMeteoData extends AppCompatActivity {
 
-    public String mTemperature;
-    public String mCity;
     public int mCondition;
     public String mIconName;
     public String condition;
+    public String mTemperature;
+    public String mCity;
+
 
     public static MrMeteoData fromJson(JSONObject object) {
         try {
